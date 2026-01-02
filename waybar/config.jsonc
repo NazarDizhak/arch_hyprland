@@ -8,7 +8,7 @@
     "height": 50,
     "modules-left": ["clock","custom/weather","hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["network", "bluetooth", "cpu", "temperature","battery","backlight","pulseaudio","pulseaudio#microphone","tray"],
+    "modules-right": ["network", "bluetooth", "cpu", "temperature","custom/battery","backlight","pulseaudio","pulseaudio#microphone","tray"],
     "hyprland/window": {
         "format": "{}"
     },
@@ -55,17 +55,13 @@
         "min-length": 6
     },
 
-    "battery": {
-        "states": {
-            "good": 95,
-            "warning": 30,
-            "critical": 20
-        },
-        "format": "{icon} {capacity}%",
-        "format-charging": " {capacity}%",
-        "format-plugged": " {capacity}%",
-        "format-alt": "{time} {icon}",
-        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    "custom/battery": {
+        "format": "{}",
+        "return-type": "json",
+        "interval": 5,
+        "exec": "LANG=en_US.UTF-8 /home/yopsa_matb/.config/waybar/scripts/waybar-power-battery.sh",
+        "on-click": "/home/yopsa_matb/.config/hypr/scripts/power-menu.sh",
+        "tooltip": true
     },
 
     "pulseaudio": {

@@ -52,7 +52,7 @@ tooltip {
 #custom-weather,
 #window,
 #clock,
-#battery,
+#custom-battery,
 #pulseaudio,
 #network,
 #bluetooth,
@@ -145,7 +145,7 @@ tooltip {
     margin-right: 10px;
 }
 
-#battery {
+#custom-battery {
     color: #a6e3a1;
     border-radius: 0 10px 10px 0;
     margin-right: 10px;
@@ -161,4 +161,16 @@ tooltip {
 #cpu {
     border-radius: 10px;
     margin-right: 10px;
+}
+
+#custom-battery.balanced {
+    color: #a6e3a1; /* green */
+}
+
+#custom-battery.power-saver {
+    color: #f9e2af; /* yellow */
+}
+
+#custom-battery.performance {
+    color: #ed8796; /* red */
 }

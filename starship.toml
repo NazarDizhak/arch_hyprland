@@ -1,0 +1,38 @@
+# A minimal, good-looking starship configuration.
+
+# Use custom symbols for the prompt
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[✗](bold red)"
+
+# Shows the current directory
+[directory]
+read_only = " 󰌾"
+style = "bold blue"
+
+# Shows git branch and status
+[git_branch]
+symbol = " "
+style = "bold yellow"
+
+[git_status]
+style = "bold red"
+stashed = ""
+ahead = "⇡"
+behind = "⇣"
+diverged = "⇕"
+renamed = "»"
+deleted = "✘"
+
+# Shows current username
+[username]
+show_always = true
+style_user = "bold green"
+style_root = "bold red"
+
+# Shows hostname
+[hostname]
+ssh_only = false
+style = "bold blue"
+trim_at = "."
+disabled = true
