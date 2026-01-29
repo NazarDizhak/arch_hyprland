@@ -9,8 +9,8 @@ CRITICAL_THRESHOLD=10
 SLEEP_INTERVAL=1 # Check every 5 seconds for responsiveness
 
 # --- Sound Files ---
-SND_PLUGGED_IN="/usr/share/sounds/freedesktop/stereo/device-added.oga"
-SND_PLUGGED_OUT="/usr/share/sounds/freedesktop/stereo/device-removed.oga"
+SND_PLUGGED_IN="/usr/share/sounds/freedesktop/stalker.mp3"
+SND_PLUGGED_OUT="/usr/share/sounds/freedesktop/stalker.mp3"
 SND_LOW_BATTERY="/usr/share/sounds/freedesktop/stereo/dialog-warning.oga"
 
 # --- Initial State ---

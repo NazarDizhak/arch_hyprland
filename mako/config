@@ -12,6 +12,8 @@ default-timeout=5000
 ignore-timeout=1
 font=monospace 14
 group-by=none
+max-history=50
+history=1
 
 [urgency=low]
 border-color=#cccccc

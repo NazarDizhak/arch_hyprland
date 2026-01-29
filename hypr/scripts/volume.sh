@@ -2,7 +2,7 @@
 
 # volume.sh: Control volume, play feedback sound, and show notification.
 
-SOUND_FILE="/usr/share/sounds/freedesktop/stereo/audio-volume-change.oga"
+SOUND_FILE="/usr/share/sounds/freedesktop/ekh.mp3"
 REPLACE_ID=9999
 
 send_notification() {
