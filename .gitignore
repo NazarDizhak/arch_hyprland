@@ -1,4 +1,4 @@
-copyq/
+copyq/*
 discord/
 dconf/
 libreoffice/
@@ -11,3 +11,12 @@ Thunar/
 htop/
 user-dirs.dirs
 QtProject.conf
+Arduino\ IDE/
+Code\ -\ OSS/
+Kitware/
+Slack/
+mimeapps.list
+okular*
+zoom*
+pavucontrol.ini
+

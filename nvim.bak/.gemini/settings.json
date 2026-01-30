@@ -1,0 +1,8 @@
+{
+  "general": {
+    "vimMode": false
+  },
+  "ui": {
+    "incrementalRendering": false
+  }
+}
